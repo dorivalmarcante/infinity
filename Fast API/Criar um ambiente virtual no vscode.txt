@@ -1,0 +1,19 @@
+no terminal:
+python -m venv .venv
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.venv/Scripts/activate
+
+Instalar o fast API
+
+pip install 'fastapi[standard]' 
+
+pip install sqlalchemy
+
+listar o conteudo instalado:
+
+pip list
+
+Para remover uma bibilioteca:
+
+pip remove "nome_da_biblioteca"
+

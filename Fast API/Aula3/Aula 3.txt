@@ -1,0 +1,22 @@
+SOLID é um conjunto de cinco princípios de programação orientada a objetos (POO) que ajudam a criar software mais flexível, escalável e sustentável. 
+Os princípios SOLID 
+Single Responsibility Principle: Princípio da responsabilidade única
+Open-Closed Principle: Princípio aberto/fechado
+Liskov Substitution Principle: Princípio da substituição de Liskov
+Interface Segregation Principle: Princípio da segregação da interface
+Dependency Inversion Principle: Princípio da inversão da dependência
+Quem criou os princípios SOLID?
+Robert C. Martin, também conhecido como Uncle Bob, foi o criador dos princípios SOLID. Ele apresentou os princípios pela primeira vez em um texto publicado em 2000. 
+Como aplicar os princípios SOLID?
+Os princípios SOLID podem ser aplicados em qualquer linguagem de POO. Eles ajudam a escrever um código flexível, escalável, sustentável e reutilizável. 
+Vantagens dos princípios SOLID 
+Facilitam a manutenção e a expansão do software
+Tornam o software mais robusto, escalável e flexível
+Deixam o software tolerante a mudanças
+Facilitam a implementação de novos requisitos
+Tornam o software mais compreensível
+
+para instalar o fastapi com o sqlalchemy, execute o comando abaixo:
+
+pip install 'fastapi[standard]' sqlalchemy
+

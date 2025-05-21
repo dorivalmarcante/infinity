@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Cadastro de produtos</h1><br>
+    <form method="POST">
+        <label>Produto:</label>
+        <input type="text" name="nome"><br><br>
+        <label>Preço:</label>
+        <input type="number" name="preco"><br><br>
+        <label>Quantidade:</label>
+        <input type="number" name="qtd"><br><br>
+        <input type="submit" value="Cadastrar">
+    </form>
+
+    {% if erro %}
+        <p style="color: red;">{{ erro }}</p>
+    {% endif %}
+
+    {% if resultado is not none %}
+        <p style="color: green;">{{ resultado }}</p>
+    {% endif %}
+
+</body>
+</html>
